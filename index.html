@@ -3,35 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Web Page</title>
+    <title>Tameen Jewellies - Exquisite Jewelry Collection</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Welcome to My Website</h1>
-        </header>
-        
-        <main>
-            <section class="content">
-                <h2>About</h2>
-                <p>This is a simple HTML and CSS page. You can customize it as needed.</p>
-            </section>
-            
-            <section class="content">
-                <h2>Features</h2>
-                <ul>
-                    <li>Clean and modern design</li>
-                    <li>Responsive layout</li>
-                    <li>Easy to customize</li>
-                </ul>
-            </section>
-        </main>
-        
-        <footer>
-            <p>&copy; 2024 My Website. All rights reserved.</p>
-        </footer>
-    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Tameen Jewellies</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Exquisite Rings Collection</h1>
+            <p class="hero-subtitle">Discover our stunning collection of handcrafted rings</p>
+            <a href="shop.html" class="btn-primary">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Contact Bar -->
+    <section class="contact-bar">
+        <div class="container">
+            <div class="contact-bar-content">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <a href="mailto:aleezaarshad703@gmail.com">aleezaarshad703@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <span>Kahna nua, Lahore</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <a href="https://wa.me/923444959100" target="_blank">0344 4959100</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📷</span>
+                    <a href="https://instagram.com/aleezaarshad703" target="_blank">@aleeza Arshad 703</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Collections -->
+    <section class="featured-section">
+        <div class="container">
+            <h2 class="section-title">Our Rings Collection</h2>
+            <p class="section-subtitle">Handcrafted with precision and care, each ring tells a unique story</p>
+            <div class="collections-grid">
+                <div class="collection-card">
+                    <div class="card-image">
+                        <!-- Image placeholder -->
+                    </div>
+                    <div class="card-content">
+                        <h3>Classic Rings</h3>
+                        <p>Elegant rings crafted with precision and care</p>
+                        <a href="shop.html" class="btn-secondary">Shop Now</a>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <div class="card-image">
+                        <!-- Image placeholder -->
+                    </div>
+                    <div class="card-content">
+                        <h3>Designer Rings</h3>
+                        <p>Unique designs that make a statement</p>
+                        <a href="shop.html" class="btn-secondary">Shop Now</a>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <div class="card-image">
+                        <!-- Image placeholder -->
+                    </div>
+                    <div class="card-content">
+                        <h3>Premium Rings</h3>
+                        <p>Luxury rings for special occasions</p>
+                        <a href="shop.html" class="btn-secondary">Shop Now</a>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <div class="card-image">
+                        <!-- Image placeholder -->
+                    </div>
+                    <div class="card-content">
+                        <h3>Custom Rings</h3>
+                        <p>Personalized rings tailored to your style</p>
+                        <a href="contact.html" class="btn-secondary">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Tameen Jewellies</h2>
+                    <p>We are passionate about creating beautiful, high-quality jewelry that celebrates life's special moments. Each piece is carefully crafted with attention to detail and a commitment to excellence.</p>
+                    <p>Our collection features timeless designs that blend traditional craftsmanship with modern elegance, ensuring you find the perfect piece for any occasion.</p>
+                    <a href="about.html" class="btn-primary">Learn More</a>
+                </div>
+                <div class="about-image">
+                    <!-- Image placeholder -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tameen Jewellies</h3>
+                    <p>Creating beautiful jewelry since our inception. We are committed to quality, craftsmanship, and customer satisfaction.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="collections.html">Collections</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><strong>Email:</strong> <a href="mailto:aleezaarshad703@gmail.com">aleezaarshad703@gmail.com</a></p>
+                    <p><strong>Address:</strong> Kahna nua, Lahore</p>
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/923444959100" target="_blank">0344 4959100</a></p>
+                    <p><strong>Instagram:</strong> <a href="https://instagram.com/aleezaarshad703" target="_blank">@aleeza Arshad 703</a></p>
+                    <p><strong>Website:</strong> www.tameenjewellies.online</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tameen Jewellies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
