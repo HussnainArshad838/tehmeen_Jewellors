@@ -371,12 +371,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-image-large img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .about-image-large::after {
     content: 'Image Placeholder';
     color: var(--text-light);
     font-size: 1.2rem;
+    position: absolute;
+}
+
+.about-image-large:has(img)::after {
+    display: none;
 }
 
 .about-text-large h2 {
